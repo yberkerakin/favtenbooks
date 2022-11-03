@@ -10,16 +10,11 @@ body{
 
 }
 
-h2{
-    color:#F9FAF8;
-    text-align: center;
-    
-   
-}
-
 h1{
     color:#F9FAF8;
     margin-top: 0;
+    font-size: 48px;
+    font-weight: extra-bold;
 }
 
 /*------NAVBAR-------*/
@@ -32,6 +27,14 @@ h1{
     background-color:#1F2937 ;
     
 }
+.header h2{
+    color:#F9FAF8;
+    text-align: center;
+    font-size: 24px;
+
+    
+   
+}
 
 .header .navbaritems{
     display:flex;
@@ -42,6 +45,7 @@ h1{
 .header .navbaritems li{
     text-decoration: none;
     color:#F9FAF8;
+    font-size: 18px;
 }
 
 
@@ -104,11 +108,19 @@ h1{
     padding-left:10rem;
     padding-right: 10rem;
 }
+
+.cardcontain h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
 .cards{
     display:flex;
     gap:30px;
     justify-content: center;
     list-style: none;
+    padding-left: 0;
 }
 
 .cards li{
@@ -126,4 +138,96 @@ h1{
 
 .cards li img p{
     font-size: 5px;
+}
+
+
+/*------QUOTE-------*/
+
+.quotecontainer{
+    display:flex;
+    flex-direction: column;
+    background-color:#E5E7EB;
+    padding-left:10rem;
+    padding-right: 10rem;
+}
+
+.quote p{ 
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quoteowner p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.quoteowner{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*------SIGNUPCONTAINER------*/
+
+.signupcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 10rem;
+    background-color: #F9FAF8;
+}
+
+.calltoaction{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    height: 150px;
+    padding:10px 40px;
+    width: 800px;
+    margin:auto;
+}
+
+
+
+h3{
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.textcontainer p{
+    
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.calltoaction button{
+
+    width: 100px;
+    height: 40px;
+    background-color:#3882F6;
+    color:#F9FAF8 ;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid #F9FAF8 ;
+
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+}
+
+.footer p{
+    color: #F9FAF8;
+    font-size: 18px;
 }
